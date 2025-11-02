@@ -1,0 +1,78 @@
+/* Light Mode Colors */
+body {
+  background-color: #eaf4ff;
+  color: #1b1f24;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.navbar {
+  background-color: #f8f9fa !important;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.bg-light-alt {
+  background-color: #ffffff;
+}
+
+.card {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+  background-color: #0077b6;
+  border-color: #0077b6;
+}
+
+.btn-outline-primary {
+  color: #0077b6;
+  border-color: #0077b6;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #0b0c10;
+  color: #f8f9fa;
+}
+
+body.dark-mode .navbar {
+  background-color: #1b1b1b !important;
+}
+
+body.dark-mode .card {
+  background-color: #1f2833;
+  color: #f8f9fa;
+  border: 1px solid #333;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #00b4d8;
+  border-color: #00b4d8;
+}
+
+body.dark-mode .btn-outline-primary {
+  color: #00b4d8;
+  border-color: #00b4d8;
+}
+
+body.dark-mode .bg-light-alt {
+  background-color: #1b1b1b;
+}
+
